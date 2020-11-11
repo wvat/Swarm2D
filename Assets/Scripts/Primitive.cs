@@ -5,8 +5,8 @@ using UnityEngine;
 // Creates a primitive object with a rigid body and mesh collider
 public class Primitive : MonoBehaviour
 {
-    public float width = 1.0f;
-    public float height = 1.0f;
+    public float width;
+    public float height;
     public bool staticObj = false;
 
     Rigidbody2D rBody;
